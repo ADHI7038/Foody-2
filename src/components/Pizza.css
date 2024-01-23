@@ -1,0 +1,50 @@
+#pizzaItems{
+    /* background-color: aqua; */
+    position: absolute;
+    width: 70%;
+    height: 210vh;
+    left: 15%;
+    top: 30%;
+    
+    box-shadow: 5px 5px 5px 5px #888888;
+    
+}
+
+#pizzaImages{
+
+    padding-left: 5%;
+    padding-top: 5%;
+    perspective: 1000px;
+}
+
+#chooseYourFavorite{
+
+    position: absolute;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5%;
+    padding-top: 3%;
+  
+}
+
+#pizimg{
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px 5px #888888;
+    border-radius: 2%;
+    
+}
+
+#pizimg:hover{
+    transform:  translateY(-50px)
+}
+
+#pizimgEven{
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px 5px #888888;
+    border-radius: 2%;
+    padding-right: 1%;
+}
+
+#pizimgEven:hover{
+    transform:  translateY(-50px)
+}

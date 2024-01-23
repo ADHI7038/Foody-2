@@ -1,0 +1,97 @@
+#MainDiv{
+    
+    width: 60vw;
+    height: fit-content;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    box-shadow: 5px 5px 5px 5px #FF7A33;
+    
+}
+
+#firstDiv{
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+
+#chooseFlavor{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding-left: 5%;
+}
+
+#secondDiv{
+    width: 60vw;
+    height: 80vh;
+    background-color: cadetblue;
+    display: flex;
+    padding-left: 10%;
+}
+
+#pizImg{
+    width: 80%;
+    height: 90%;
+    border-radius: 3%;
+    background-color: blue;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px 5px #888888;
+
+}
+
+#pizImg:hover{
+    transform: translateY(-50px);
+    box-shadow: 5px 5px 5px 5px green;
+}
+
+
+#selectedItems{
+    background-color: aqua;
+    width: 25vw;
+    height: 45vh;
+    position: fixed;
+    left:  70%;
+    top: 20%;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+#itemSelected{
+    padding-left: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+#noItemSelected{
+    padding-left: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+#totalAmount{
+    padding-left: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+#addToCart{
+
+    width: max-content;
+    border-radius: 5%;
+    position: relative;
+    left: 35%;
+    top: 25%;
+}
+
+#placeOrderButton{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 3%;
+    border-color: red;
+}

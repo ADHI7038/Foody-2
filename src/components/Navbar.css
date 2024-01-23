@@ -1,0 +1,288 @@
+#menubar{
+    background-color: rgb(46, 46, 48);
+    overflow: hidden;
+    position: absolute;
+    height: 15%;
+    width: 99vw;
+    display: flex;
+    justify-content: space-evenly;
+     box-shadow: 5px 2px 5px #888888;
+
+}
+
+#logo{
+    width: 20%;
+    height: 60%;
+    position: relative;
+    top: 12%;
+}
+
+#home{
+    cursor: pointer;
+    font-size: larger;
+    color: aliceblue;
+    align-self: center;
+    padding-bottom: 1%;
+    text-decoration: none;
+}
+#home:hover{
+    color: rgb(240, 16, 16);
+}
+
+#ddselect{
+    height: "20px";
+    background-color: gray;
+    width: 81%;
+    align-self: center; 
+    cursor: pointer;
+}
+
+#ddselect:hover{
+    /* background-color: grey; */
+    
+    background-color: rgb(240, 240, 240);
+}
+
+#search{
+    height: fit-content;
+    width: fit-content;
+    padding-top: 1%;
+    
+}
+
+#search:hover{
+    
+    color: rgb(240, 16, 16);
+}
+
+#secondSearch{
+    cursor: pointer;
+    font-size: larger;
+    height: 25px;
+}
+
+#second{
+    cursor: pointer;
+    font-size: larger;
+    color: aliceblue;
+    align-self: center;
+    padding-bottom: 1%;
+    text-decoration: none;
+}
+#second:hover{
+    color: rgb(240, 16, 16);
+}
+
+#offer{
+    cursor: pointer;
+    font-size: larger;
+    color: aliceblue;
+    align-self: center;
+    padding-bottom: 1%;
+    text-decoration: none;
+}
+#offer:hover{
+    color: rgb(240, 16, 16);
+}
+
+#help{
+    cursor: pointer;
+    font-size: larger;
+    color: aliceblue;
+    align-self: center;
+    padding-bottom: 1%;
+    text-decoration: none;
+}
+#help:hover{
+    color: rgb(240, 16, 16);
+}
+
+#signin{
+    cursor: pointer;
+    font-size: larger;
+    color: aliceblue;
+    align-self: center;
+    padding-bottom: 1%;
+    text-decoration: none;
+}
+#signin:hover{
+    color: rgb(240, 16, 16);
+}
+
+#cart{
+    cursor: pointer;
+    font-size: larger;
+    color: aliceblue;
+    align-self: center;
+    padding-bottom: 1%;
+    text-decoration: none;
+}
+#cart:hover{
+    color: rgb(240, 16, 16);
+}
+
+#offerTemplates{
+    top: 20%;
+    left: 10%;
+    display: flex;
+    position: absolute;
+    width: 80vw;
+    height: 50%;
+   overflow-x: scroll;
+}
+
+#choose{
+    position: absolute;
+    width: 80vw;
+    height: 70vh;
+    top: 75%;
+    left: 10%;
+    background-color: snow;
+    box-shadow: 5px 5px 5px 5px #FF7A33; /*#888888 */
+    
+}
+#cwoym{
+    font-size: x-large;
+    left: 3%;
+    top: 3%;
+    position: absolute;
+}
+
+#items{
+    padding-top: 8%;
+    /* padding-left: 5%; */
+    overflow-x: scroll;
+   
+}
+
+#imgbtns{
+    display: inline-flex;
+    box-decoration-break: unset;
+    
+}
+
+#sp{
+    background-color: aquamarine;
+}
+
+#searchBar{
+    background-color: aliceblue;
+    width: 77vw;
+    height: 15vh;
+    padding-top: 13%;
+    padding-left: 23%;
+
+    box-shadow: 5px 5px 5px 5px #FF7A33;
+}
+
+#inputBar{
+    width: 50%;
+    height: 25%;
+    border: 1px solid #cacaca;
+    border-radius: 5%;
+    
+}
+
+#populars{
+    position: relative;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+#Popularcuisines
+{
+    font-size: x-large;
+}
+
+#cuisinesimages{
+    display: flex;
+    width: min-content;
+    height: min-content;
+}
+
+#cuisinesimages:hover{
+
+    cursor: pointer;
+}
+
+#briyaniItems{
+    position: relative;
+    background-color: azure;
+    width: 80vw;
+    height: 130vh;
+    top: 20%;
+    left: 5%;
+    padding-left: 10%;
+    justify-content: space-between;
+    border-radius: 2%;
+   
+    
+}
+
+#chooseFavorite{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+
+#b{
+    padding-left: 2%;
+}
+
+#briyaniChoices{
+    background-color: aqua;
+   
+}
+
+#briyaniImages{
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+#brimg{
+    transition: 0.5s;
+}
+
+#brimg:hover{
+    transform: translateZ(50px);
+}
+
+#developerDetails{
+
+    position: absolute;
+    width: 99vw;
+    height: 50%;
+    background-color: black;
+    top: 160%;
+    display: flex;
+    overflow: hidden;
+}
+
+#bio{
+   
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    color: whitesmoke;
+}
+#bio1{
+    color: whitesmoke;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+
+#bio2{
+    color: whitesmoke;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    
+}

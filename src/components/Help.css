@@ -1,0 +1,13 @@
+#helpMainDiv{
+    background-color: azure;
+    width: 60vw;
+    height: 50vh;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+}
+
+#pTagHelpPage{
+    padding-left: 23%;
+    font-size: xx-large;
+}

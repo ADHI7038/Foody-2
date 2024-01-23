@@ -1,0 +1,15 @@
+#offersMainDiv{
+    background-color: azure;
+    width: 60vw;
+    height: 50vh;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    
+}
+
+
+#offersText{
+    
+    font-size: xx-large;
+}

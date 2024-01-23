@@ -1,0 +1,52 @@
+#signINMainDiv{
+    background-color: steelblue;
+    position: absolute;
+    height: 60%;
+    width: 50%;
+    top: 25%;
+    left: 25%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+#summa{
+
+    font-size: larger;
+}
+
+#userName{
+    padding-left: 12%;
+    position: relative;
+    border: 1px solid #cacaca;
+    border-radius: 5%;
+    top: 30%;
+    left: 15%;
+    font-size: larger;
+}
+
+#userPass{
+    padding-left: 12%;
+    position: relative;
+    border: 1px solid #cacaca;
+    border-radius: 5%;
+    left: 15%;
+    top: 31%;
+    font-size: larger;
+}
+
+#signinBtn{
+    position: relative;
+    left: 42%;
+    top: 33%;
+}
+
+#signINSecondDiv{
+    background-color: whitesmoke;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 23%;
+    top: 20%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 5px navy;
+}
